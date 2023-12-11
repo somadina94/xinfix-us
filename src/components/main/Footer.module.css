@@ -1,0 +1,12 @@
+.footer {
+  margin: auto;
+  padding: 2rem;
+  box-shadow: 0 0 8px rgba(0, 0, 0, 0.2);
+  margin-top: 8rem;
+  position: sticky;
+}
+
+.footer p {
+  font-size: 1.4rem;
+  text-align: center;
+}

@@ -1,0 +1,49 @@
+.nav {
+  max-width: 60rem;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  -webkit-display: flex;
+  -webkit-justify-content: space-between;
+  -webkit-align-items: center;
+}
+
+.nav a {
+  font-size: 1.6rem;
+  text-decoration: none;
+  color: #212529;
+  display: inline-block;
+  width: 100%;
+}
+
+.nav a:hover {
+  color: black;
+}
+
+@media (max-width: 52em) {
+  .nav a {
+    font-size: 1.2rem;
+  }
+}
+
+@media (max-width: 52em) {
+  .nav a {
+    font-size: 1.8rem;
+    padding: 2rem 0;
+    text-align: center;
+  }
+
+  .nav {
+    flex-direction: column;
+    -webkit-flex-direction: column;
+    max-width: 70rem;
+    z-index: 100;
+  }
+
+  .active {
+    color: black;
+    width: 100%;
+    border: none;
+  }
+}
